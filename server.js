@@ -32,7 +32,7 @@ function sendbus(req,res){
   //  "lon":[lon],
   //  "time":[time]
 
-   bus[busid]={busid,lat,lon,time};
+   bus[busid] = {busid,lat,lon,time};
    //key value pair
 //   bus[busid].lat.push("asd");
     var data = JSON.stringify(bus,null,2); //Stringify is opposite of parsing u need to covert data to raw texxt format to save it to .json file
