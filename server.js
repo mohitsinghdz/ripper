@@ -86,16 +86,7 @@ app.get('/showdata',function(req,res){
   });
 })
 //app.use(express.bodyParser());
-app.get('/wines',function(req,res){
 
-res.send([{name:'cigs1'},{name:'wine2'}]);
-
-});
-
-app.get('/wines/:id',function(req,res){
-res.send({id:req.params.id, name:"the name",description:"description"});
-
-});
 //new code
 /*
 app.post('/receive',function (req,res){
